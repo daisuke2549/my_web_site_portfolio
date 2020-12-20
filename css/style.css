@@ -1,0 +1,426 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+html, body {
+  color: white;
+  font-family: 'PT Serif', serif;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+.wrap{
+    overflow: hidden;
+}
+
+/*header part*/
+
+.header-top{
+    top: -143px;
+    left: 0px;
+    width: 1366px;
+    height: 768px;
+    background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
+    opacity: 1;
+    background-size: cover;
+}
+
+.header-top h1{
+    top: 450px;
+    position: absolute;
+    left: 1128px;
+    width: 148px;
+    height: 32px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 24px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.header-top h2{
+    position: absolute;
+    top: 482px;
+    font-size: 88px;
+    left: 670px;
+    width: 603px;
+    height: 116px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 88px/116px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.header-top button {
+    top: 630px;
+    left: 998px;
+    width: 275px;
+    height: 63px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    opacity: 1;
+    position: absolute;
+    background-color: transparent;
+    color:#FFFFFF;
+}
+
+/*profile part*/
+
+
+.about-me-title p{
+    top: 899px;
+    left: 562px;
+    width: 242px;
+    height: 74px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal bold 56px/74px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+.about-me-under-bar{
+    top: 974px;
+    left: 563px;
+    width: 242px;
+    height: 0px;
+    border: 3px solid #2150BC;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.profile_image img{
+    top: 1020px;
+    left: 208px;
+    width: 323px;
+    height: 287px;
+    opacity: 1;
+    position: absolute;
+}
+
+.introduction_text{
+    top: 1035px;
+    left: 637px;
+    width: 562px;
+    height: 256px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+
+.profile_background p{ 
+    top: 1355px;
+    left: 637px;
+    width: 173px;
+    height: 43px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+
+.profile_background_content {
+    top: 1430px;
+    left: 637px;
+    width: 224px;
+    height: 46px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+    white-space: nowrap
+}
+
+.profile_background p{
+    top: 1355px;
+    left: 637px;
+    width: 173px;
+    height: 43px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+.profile_background p2{
+    top: 1355px;
+    left: 818px;
+    width: 26px;
+    height: 43px;
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #2150BC;
+    opacity: 1;
+    position: absolute;
+}
+
+/*service part*/
+.service_section{
+    top: 1719px;
+    left: 0px;
+    width: 1366px;
+    height: 776px;
+    background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
+    background-position:bottom;  
+    opacity: 0.6;
+    
+    background-size: cover;
+    position: absolute;
+}
+
+.service_section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#001762;
+    opacity: 0.5;
+    display:block
+}
+
+
+.service_section2{
+    top: 776px;
+    left: 0px;
+    width: 1366px;
+    height: 424px;
+    background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
+    background-position: 20% 80%;
+    opacity: 0.6;
+    background-size: cover;
+    position: absolute;
+}
+
+.service_section2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:#001762;
+    opacity: 0.5;
+    display:block
+}
+
+
+.service-title p{
+    top: 130px;
+    left: 589px;
+    width: 188px;
+    height: 74px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 56px/74px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+.service-subtitle{
+    top: 277px;
+    left: 347px;
+    width: 672px;
+    height: 69px;
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 24px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.service-content-title1{
+    top: 419px;
+    left: 238px;
+    width: 302px;
+    height: 82px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    background:cover;
+}
+.service-content-title1 p{
+    top: 20px;
+    left:101px;
+    width: 101px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+.servive-price1{
+    top: 509px;
+    left: 238px;
+    width: 302px;
+    height: 216px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: absolute;
+}
+
+.servive-price1 p1{
+    top: 32px;
+    left: 79px;
+    width: 144px;
+    height: 21px;
+    color: var(--unnamed-color-151515);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: relative;
+}
+.servive-price1 h1{
+    top: 57px;
+    left: 94px;
+    width: 114px;
+    height: 43px;
+    text-align: center;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #2851D6;
+    opacity: 1;
+    position: absolute;
+}
+
+.servive-price1 p2{
+    top: 116px;
+    left: 94px;
+    width: 114px;
+    height: 21px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+.servive-price1 h2{
+    top: 141px;
+    left: 81px;
+    width: 140px;
+    height: 43px;
+    text-align: center;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #2851D6;
+    opacity: 1;
+    position: absolute;
+}
+.servive-detailed1{
+    top: 730px;
+    left: 238px;
+    width: 302px;
+    height: 149px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: absolute;
+}
+.servive-detailed1 p1{
+    top: 32px;
+    left: 31px;
+    width: 240px;
+    height: 85px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+
+}
+
+.servive-used-technology1{
+    top: 888px;
+    left: 238px;
+    width: 302px;
+    height: 69px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: absolute;;
+}
+
+.servive-used-technology1 p1{
+    top: 24px;
+    left: 43px;
+    width: 217px;
+    height: 21px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.service-content-title2{
+    top: 419px;
+    left: 548px;
+    width: 302px;
+    height: 82px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.service-content-title2 p{
+    top: 20px;
+    left: 66px;
+    width: 170px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    opacity: 1;
+}
