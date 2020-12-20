@@ -4,15 +4,18 @@
 html, body {
   color: white;
   font-family: 'PT Serif', serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
-
   text-align: center;
 }
+
 .wrap{
     overflow: hidden;
+    width: 100%;
+    margin:0;
+    padding: 0;
 }
 
 /*header part*/
@@ -20,8 +23,8 @@ html, body {
 .header-top{
     top: -143px;
     left: 0px;
-    width: 1366px;
     height: 768px;
+    width: 1366px;
     background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
     opacity: 1;
     background-size: cover;
@@ -240,6 +243,21 @@ html, body {
     opacity: 1;
     position: absolute;
 }
+
+.Service-under-bar{
+    top: 208px;
+    left: 590px;
+    width: 188px;
+    height: 0px;
+    border: 3px solid #6996FF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+
+
 
 .service-subtitle{
     top: 277px;
@@ -695,3 +713,619 @@ html, body {
     position: absolute;
     color: #FFFFFF;
 }
+
+/*skill part*/
+.skill-work-section{
+  top:-1730px;
+  position: absolute;
+
+}
+
+.skill_section_title h1{
+    top: 3042px;
+    left: 613px;
+    width: 139px;
+    height: 74px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal bold 56px/74px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+
+.Skill-under-bar{
+    top: 3117px;
+    left: 614px;
+    width: 139px;
+    height: 0px;
+    border: 3px solid #2150BC;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend {
+    top: 3181px;
+    left: 95px;
+    width: 360px;
+    height: 504px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend h1{
+    top: 48px;
+    left: 99px;
+    width: 162px;
+    height: 53px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 40px/53px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend h2{
+    top: 109px;
+    left: 90px;
+    width: 180px;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend p1{
+    top: 177px;
+    left: 128px;
+    width: 105px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend p2{
+    top:236px;
+    left:141px;
+    width: 79px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend p3{
+    top: 295px;
+    left: 103px;
+    width: 154px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-frontend p4{
+    top: 354px;
+    left: 133px;
+    width: 94px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend{
+    top: 3181px;
+    left: 503px;
+    width: 360px;
+    height: 504px;
+    background: #40559A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend h1{
+    top:48px;
+    left:103px;
+    width: 155px;
+    height: 53px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 40px/53px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend h2{
+    top:109px;
+    left:100px;
+    width: 160px;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend p1{
+    top:177px;
+    left:148px;
+    width: 64px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.skill-backend p2{
+    top:236px;
+    left:133px;
+    width: 95px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend p3{
+    top:295px;
+    left:144px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend p4{
+    top:354px;
+    left: 87px;
+    width: 187px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-backend p5{
+    top:413px;
+    left:150px;
+    width: 60px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-other{
+    top: 3181px;
+    left: 911px;
+    width: 360px;
+    height: 504px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-other h1{
+    top:48px;
+    left: 121px;
+    width: 120px;
+    height: 53px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 40px/53px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+.skill-other h2{
+    top: 109px;
+    left: 91px;
+    width: 179px;
+    height: 20px;
+    text-align: left;
+    font: normal normal bold 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.skill-other p1{
+    top:177px;
+    left: 102px;
+    width: 157px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.skill-other p2{
+    top:236px;
+    left:133px;
+    width: 95px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+
+/*work part*/
+
+.work_section_title h1{
+    top: 3845px;
+    left: 603px;
+    width: 159px;
+    height: 74px;
+    color: var(--unnamed-color-151515);
+    text-align: left;
+    font: normal normal bold 56px/74px Roboto;
+    letter-spacing: 0px;
+    color: #151515;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work-under-bar{
+    top: 3920px;
+    left: 604px;
+    width: 159px;
+    height: 0px;
+    border: 3px solid #2150BC;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work1{
+    top: 3984px;
+    left: 115px;
+    width: 358px;
+    height: 281px;
+    background: transparent url('../img/todoapp.jpg') 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work1-hover{
+    top: 3984px;
+    left: 115px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0;
+}
+
+.Work1-hover:hover{
+    top: 3984px;
+    left: 115px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+}
+
+
+
+.Work1-hover h1{
+    color: #FFFFFF;
+    font: normal normal normal 20px/21px Roboto;
+    top:64px;
+    left:109px;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work1-hover h2{
+    color: #FFFFFF;
+    font: normal normal normal 16px/21px Roboto;
+    top:120px;
+    left:147px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work1-hover h3{
+    color: #FFFFFF;
+    top:144px;
+    left:68px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work1-hover h4{
+    color: #FFFFFF;
+    top:200px;
+    left:44px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work2{
+    top: 3984px;
+    left: 505px;
+    width: 358px;
+    height: 281px;
+    background: transparent url('../img/todoapp.jpg') 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work2-hover{
+    top: 3984px;
+    left: 505px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0;
+    position: absolute;
+}
+
+
+.Work2-hover:hover{
+    top: 3984px;
+    left: 505px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    position: absolute;
+}
+
+
+.Work2-hover h1{
+    color: #FFFFFF;
+    font: normal normal normal 20px/21px Roboto;
+    top:64px;
+    left:109px;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work2-hover h2{
+    color: #FFFFFF;
+    font: normal normal normal 16px/21px Roboto;
+    top:120px;
+    left:147px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work2-hover h3{
+    color: #FFFFFF;
+    top:144px;
+    left:68px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work2-hover h4{
+    color: #FFFFFF;
+    top:200px;
+    left:72px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+.Work3{
+    top: 3984px;
+    left: 894px;
+    width: 358px;
+    height: 281px;
+    background: transparent url('../img/web-company.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #B5B5B5;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work3-hover{
+    top: 3984px;
+    left: 894px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.0;
+    position: absolute;
+}
+.Work3-hover:hover{
+    top: 3984px;
+    left: 894px;
+    width: 358px;
+    height: 281px;
+    opacity: 1;
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    position: absolute;
+}
+
+
+.Work3-hover h1{
+    color: #FFFFFF;
+    font: normal normal normal 20px/21px Roboto;
+    top:64px;
+    left:100px;
+    opacity: 1;
+    position: absolute;
+}
+
+.Work3-hover h2{
+    color: #FFFFFF;
+    font: normal normal normal 16px/21px Roboto;
+    top:120px;
+    left:147px;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work3-hover h3{
+    color: #FFFFFF;
+    top:144px;
+    left:68px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+}
+
+
+.Work3-hover h4{
+    color: #FFFFFF;
+    top:200px;
+    left:12px;
+    font: normal normal normal 16px/21px Roboto;
+    opacity: 1;
+    position: absolute;
+    white-space: nowrap;
+}
+
+/*footer part*/
+footer{
+
+}
+
+
+.footer-contact-form{
+    top: 4425px;
+    left: 0px;
+    width: 1366px;
+    height: 502px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 0.6;
+    background: url(../img/artem-beliaikin-qME4CejZTaI-unsplash.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+.footer-contact-form button{
+    top:220px;
+    color: #FFFFFF;
+    left: 545px;
+    width: 276px;
+    height: 63px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    opacity: 1;
+    position: absolute;
+    background-color: transparent;
+}
+
+
+
+
+.copyright{
+    top: 4927px;
+    left: 0px;
+    width: 1366px;
+    height: 237px;
+    background: #001762 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+
+.copy-right-text{
+    top: 152px;
+    left: 526px;
+    white-space: nowrap;
+    width: 314px;
+    height: 21px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+
+
+
+/*レスポンシブデザイン*/
