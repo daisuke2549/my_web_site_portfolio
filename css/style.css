@@ -187,7 +187,6 @@ html, body {
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position:bottom;  
     opacity: 0.6;
-    
     background-size: cover;
     position: absolute;
 }
@@ -206,10 +205,10 @@ html, body {
 
 
 .service_section2{
-    top: 776px;
+    top:776px;
     left: 0px;
     width: 1366px;
-    height: 424px;
+    height: 852px;
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position: 20% 80%;
     opacity: 0.6;
@@ -295,7 +294,7 @@ html, body {
 }
 
 
-.servive-price1{
+.service-price1{
     top: 509px;
     left: 238px;
     width: 302px;
@@ -308,7 +307,7 @@ html, body {
     position: absolute;
 }
 
-.servive-price1 p1{
+.service-price1 p1{
     top: 32px;
     left: 79px;
     width: 144px;
@@ -321,7 +320,7 @@ html, body {
     opacity: 1;
     position: relative;
 }
-.servive-price1 h1{
+.service-price1 h1{
     top: 57px;
     left: 94px;
     width: 114px;
@@ -334,7 +333,7 @@ html, body {
     position: absolute;
 }
 
-.servive-price1 p2{
+.service-price1 p2{
     top: 116px;
     left: 94px;
     width: 114px;
@@ -347,7 +346,7 @@ html, body {
     opacity: 1;
     position: absolute;
 }
-.servive-price1 h2{
+.service-price1 h2{
     top: 141px;
     left: 81px;
     width: 140px;
@@ -386,7 +385,7 @@ html, body {
     position: absolute;
 }
 
-.servive-used-technology1{
+.service-used-technology1{
     top: 888px;
     left: 238px;
     width: 302px;
@@ -399,7 +398,7 @@ html, body {
     position: absolute;;
 }
 
-.servive-used-technology1 p1{
+.service-used-technology1 p1{
     top: 24px;
     left: 43px;
     width: 217px;
@@ -713,7 +712,7 @@ html, body {
 
 /*skill part*/
 .skill-work-section{
-  top:30px;
+    top: 554px;
   position: absolute;
 
 }
@@ -1009,7 +1008,9 @@ html, body {
     position: absolute;
 }
 
-
+.work_section{
+   top:933px;
+}
 
 
 /*work part*/
@@ -1265,7 +1266,8 @@ html, body {
 
 /*footer part*/
 footer{
-
+  top:506px;
+  position: absolute;
 }
 
 
@@ -1510,7 +1512,7 @@ html, body {
     height: 82px;
     font-size:16px;
 }
-.servive-price1{
+.service-price1{
     top:381px;
     left:37px;
     width: 302px;
@@ -1524,7 +1526,7 @@ html, body {
     height: 149px;
     font-size:13px;
 }
-.servive-used-technology1{
+.service-used-technology1{
     top:762px;
     width: 302px;
     left: 37px;
@@ -1602,16 +1604,6 @@ html, body {
 
 }
 
-.service_section{
-    top: 1719px;
-    width: 375px;
-    height: 1406px;
-    background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
-    background-position:bottom;  
-    opacity: 0.6;
-    background-size: cover;
-    position: absolute;
-}
 
 
 
@@ -1646,8 +1638,128 @@ html, body {
     position: absolute;
 }
 .skill-frontend h1{
+    top:35px;
    left:61px;
+   font-size: 40px;
 }
+.skill-frontend h2{
+    top:85px;
+    left:70px;
+    font-size: 16px;
+    width:144px;
+ }
+ .skill-frontend p1{
+    top:133px;
+    left:103px;
+    font-size: 24px;
+    width:78px;
+}
+ .skill-frontend p2{
+    top:173px;
+    left:112px;
+    font-size: 24px;
+    width:60px;
+ }
+.skill-frontend p3{
+   top:213px;
+   left:84px;
+   font-size: 24px;
+   width:116px;
+}
+
+.skill-frontend p4{
+    top:253px;
+    left:107px;
+    font-size: 24px;
+    width:70px;
+ }
+
+.skill-backend{
+    top:4518px;
+    width:283px;
+    height:357px;
+    left:46px;
+}
+
+.skill-backend h1{
+    top:32px;
+    left:64px;
+    font-size: 40px;
+}
+
+.skill-backend h2{
+    top:85px;
+    left:78px;
+    font-size: 16px;
+ }
+
+.skill-backend p1{
+    top:133px;
+    left:118px;
+    font-size: 24px;
+    width:78px;
+}
+.skill-backend p2{
+    top:173px;
+    left:106px;
+    font-size: 24px;
+    width:60px;
+ }
+ .skill-backend p3{
+   top:213px;
+   left:114px;
+   font-size: 24px;
+}
+.skill-backend p4{
+    top:253px;
+    left:71px;
+    white-space: nowrap;
+    font-size: 24px;
+    width:70px;
+}
+.skill-backend p5{
+    top:293px;
+    left:119px;
+    font-size: 24px;
+    width:70px;
+}
+
+
+.skill-other{
+    top:4907px;
+    width:283px;
+    height:237px;
+    left:46px;
+}
+
+.skill-other h1{
+    top:32px;
+    width:283px;
+    height:237px;
+    font-size:40px;
+    left:82px;
+}    
+.skill-other h2{
+    top:85px;
+    width:283px;
+    height:237px;
+    font-size:16px;
+    left:70px;
+}    
+
+.skill-other p1{
+    top:133px;
+    height:133px;
+    font-size:24px;
+    left:83px;
+}    
+
+.skill-other p2{
+    top:173px;
+    height:133px;
+    font-size:24px;
+    left:106px;
+}    
 
 
 
@@ -1674,15 +1786,42 @@ html, body {
 }
 
 
+.work_section_title h1{
+    top: 5244px;
+    left: 131px;
+    font-size: 40px;
+}
 
-
+.Work-under-bar{
+    top: 5301.5px;
+    left: 131.5px;
+    width:113px;
+}
+.Work2{
+    top: 5581px;
+    left: 46px;
+    width: 283px;
+    height: 222px;
+}
+.Work2-hover{
+    top: 5581px;
+    left: 46px;
+    width: 283px;
+    height: 222px;
+}
+.Work3{
+    top: 5828px;
+    left: 46px;
+    width: 283px;
+    height: 222px;
+}
 
 
 /*フッター部分*/
 
 
 .footer-contact-form{
-    top: 6585px;
+    top: 6150px;
     width: 375px;
     height: 248px;
 }
@@ -1696,9 +1835,43 @@ html, body {
 }
 
 .copyright{
-    
+    top:6398px;
+    width:375px;
+    height: 187px;
 }
 
+
+.SNS-icon p1 img{
+    left:104px;
+    top:64px;
+    width: 35px;
+    height: 40px;
+}
+
+.SNS-icon p2 img{
+    top:64px;
+    left:170px;
+    width: 35px;
+    height: 40px;
+
+}
+
+
+.SNS-icon p3 img{
+    left:236px;
+    top:64px;
+    width: 35px;
+    height: 40px;
+}
+
+
+
+.copy-right-text{
+
+   top:128px;
+   left:60px;
+   font-size: 13px;
+}
 
 
 }
