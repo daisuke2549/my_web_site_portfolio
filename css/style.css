@@ -4,19 +4,22 @@
 html, body {
     color: white;
     font-family: 'PT Serif', serif;
-    margin: 0 auto;
-    padding: 0;
+    margin:0;
+    max-width: 1366px;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  
-.wrap{
-    overflow: hidden;
-    text-align: left;
-    margin: 0 auto;
-    padding: 0;
+    table-layout: fixed;
 }
+
+#wrap{
+    overflow:hidden;    
+    table-layout: fixed;
+    margin:0;
+    width: 100%;
+    overflow: hidden;
+}
+
 
 /*header part*/
 
@@ -25,15 +28,41 @@ html, body {
     left: 0px;
     height: 768px;
     width: 1366px;
+    margin:0;
     background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
     opacity: 1;
     background-size: cover;
 }
 
+.header-right{
+    left: 364px;
+    width: 1001px;
+    height: 768px;
+    padding: .8em 1.6em .4em .8em;
+    display: inline-block;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 0.8; 
+    position: relative;
+}
+ .header-right::before{
+    content: "";
+    left: 364px;
+    top: 0;
+    width: 1001px;
+    height: 768px;
+	z-index: -1;
+	background:#001762 ;
+    transform: scaleY(6.0) perspective(.6em) rotateX(1.7deg) scaleX(1.3);
+    transform-origin: bottom right;
+    position: absolute;
+	border-radius: 8px 8px 0 0;
+} 
+
+
 .header-top h1{
     top: 450px;
     position: absolute;
-    left: 1128px;
+    left: 763.79px;
     width: 148px;
     height: 32px;
     color: var(--unnamed-color-ffffff);
@@ -48,7 +77,7 @@ html, body {
     position: absolute;
     top: 482px;
     font-size: 88px;
-    left: 670px;
+    left: 305.79px;
     width: 603px;
     height: 116px;
     color: var(--unnamed-color-ffffff);
@@ -61,20 +90,26 @@ html, body {
 
 .header-top button {
     top: 630px;
-    left: 998px;
+    left: 633.79px;
     width: 275px;
     height: 63px;
     border: 1px solid var(--unnamed-color-ffffff);
     border: 1px solid #FFFFFF;
     border-radius: 35px;
     opacity: 1;
-    position: absolute;
+    position: relative;
     background-color: transparent;
     color:#FFFFFF;
 }
 
 /*profile part*/
+.profile_section{
+    width: 1366px;
+    height: 4394.25px;
+    margin:0;
+    overflow:hidden;    
 
+}
 
 .about-me-title p{
     top: 899px;
@@ -183,12 +218,15 @@ html, body {
     top: 1719px;
     left: 0px;
     width: 1366px;
-    height: 776px;
+    height: 1200px;
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position:bottom;  
-    opacity: 0.6;
+    background-color: #001762;
+    opacity: 1.0;
     background-size: cover;
     position: absolute;
+    overflow:hidden;    
+    z-index: 1;
 }
 
 .service_section::after{
@@ -199,7 +237,7 @@ html, body {
     bottom: 0;
     left: 0;
     background-color:#001762;
-    opacity: 0.5;
+    opacity: 0.6;
     display:block
 }
 
@@ -208,7 +246,7 @@ html, body {
     top:776px;
     left: 0px;
     width: 1366px;
-    height: 852px;
+    height: 424px;
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position: 20% 80%;
     opacity: 0.6;
@@ -221,12 +259,15 @@ html, body {
     position: absolute;
     top: 0;
     right: 0;
+    overflow:hidden;    
+    margin: 0;
     bottom: 0;
     left: 0;
     background-color:#001762;
-    opacity: 0.5;
+    opacity: 0.6;
     display:block
 }
+
 
 
 .service-title p{
@@ -234,12 +275,13 @@ html, body {
     left: 589px;
     width: 188px;
     height: 74px;
+    z-index: 1;
     color: var(--unnamed-color-ffffff);
     text-align: left;
     font: normal normal bold 56px/74px Roboto;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+    opacity: 2.0;
     position: absolute;
 }
 
@@ -249,8 +291,9 @@ html, body {
     width: 188px;
     height: 0px;
     border: 3px solid #6996FF;
-    opacity: 1;
+    opacity: 1.0;
     position: absolute;
+    z-index: 2;
 }
 
 
@@ -265,7 +308,8 @@ html, body {
     font: normal normal bold 24px/32px Roboto;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+    opacity: 1.0;
+    z-index: 2;
     position: absolute;
 }
 
@@ -277,17 +321,21 @@ html, body {
     background: #001762 0% 0% no-repeat padding-box;
     opacity: 1;
     position: relative;
+    z-index: 2;
     background:cover;
 }
+
 .service-content-title1 p{
     top: 20px;
     left:101px;
+    z-index: 2;
     width: 101px;
     height: 43px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
     font: normal normal bold 32px/43px Roboto;
     letter-spacing: 0px;
+    background: #001762 0% 0% no-repeat padding-box;
     color: #FFFFFF;
     opacity: 1;
     position: absolute;
@@ -298,6 +346,7 @@ html, body {
     top: 509px;
     left: 238px;
     width: 302px;
+    z-index: 2;
     height: 216px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-707070);
@@ -310,6 +359,7 @@ html, body {
 .service-price1 p1{
     top: 32px;
     left: 79px;
+    z-index: 2;
     width: 144px;
     height: 21px;
     color: var(--unnamed-color-151515);
@@ -329,6 +379,7 @@ html, body {
     font: normal normal bold 32px/43px Roboto;
     letter-spacing: 0px;
     color: #2851D6;
+    z-index: 2;
     opacity: 1;
     position: absolute;
 }
@@ -338,6 +389,7 @@ html, body {
     left: 94px;
     width: 114px;
     height: 21px;
+    z-index: 2;
     color: var(--unnamed-color-151515);
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
@@ -349,6 +401,7 @@ html, body {
 .service-price1 h2{
     top: 141px;
     left: 81px;
+    z-index: 2;
     width: 140px;
     height: 43px;
     text-align: center;
@@ -361,6 +414,7 @@ html, body {
 .service-detailed1{
     top: 730px;
     left: 238px;
+    z-index: 2;
     width: 302px;
     height: 149px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -389,6 +443,7 @@ html, body {
     top: 888px;
     left: 238px;
     width: 302px;
+    z-index: 2;
     height: 69px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     border: 1px solid var(--unnamed-color-707070);
@@ -421,6 +476,7 @@ html, body {
     background: #001762 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
+    z-index: 2;
 }
 .service-content-title2 p{
     top: 20px;
@@ -446,6 +502,7 @@ html, body {
     border: 1px solid #707070;
     opacity: 1;
     position: absolute;
+    z-index: 2;
 }
 
 .service-price2 p1{
@@ -509,6 +566,7 @@ html, body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    z-index: 2;
     position: absolute;
 }
 .service-detailed2 h1{
@@ -534,6 +592,7 @@ html, body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -558,6 +617,7 @@ html, body {
     height: 82px;
     background: #001762 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -585,6 +645,7 @@ html, body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -645,6 +706,7 @@ html, body {
 .service-detailed3{
     top: 730px;
     left: 858px;
+    z-index: 2;
     width: 302px;
     height: 149px;
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -680,6 +742,7 @@ html, body {
     border: 1px solid #707070;
     opacity: 1;
     position: absolute;
+    z-index: 2;
 }
 
 .service-used-technology3 p1{ 
@@ -708,13 +771,15 @@ html, body {
     opacity: 1;
     position: absolute;
     color: #FFFFFF;
+    background-color: transparent;
+    z-index: 2;
 }
 
 /*skill part*/
 .skill-work-section{
-    top: 554px;
-  position: absolute;
-
+    top: 130px;
+    overflow:hidden;    
+    margin: 0;
 }
 
 .skill_section_title h1{
@@ -1265,23 +1330,33 @@ html, body {
 }
 
 /*footer part*/
-footer{
-  top:506px;
-  position: absolute;
-}
-
 
 .footer-contact-form{
     top: 4425px;
     left: 0px;
     width: 1366px;
+    overflow:hidden;    
+    margin: 0px;
     height: 502px;
     background: #001762 0% 0% no-repeat padding-box;
-    opacity: 0.6;
+    opacity: 0.8;
     background: url(../img/artem-beliaikin-qME4CejZTaI-unsplash.jpg);
     background-size: cover;
     position: absolute;
 }
+
+
+.footer-contact-form::before{
+    content: "";
+    left: 0px;
+    left: 0px;
+    width: 1366px;
+    opacity: 0.6;
+    height: 502px;
+    background: #001762 0% 0% no-repeat padding-box;
+    position: absolute;
+}
+
 
 .footer-contact-form button{
     top:220px;
@@ -1299,7 +1374,7 @@ footer{
 
 
 
-.SNS-icon p1 img{
+.SNS-icon p1 {
     top: 72px;
     left: 596px;
     width: 42px;
@@ -1313,7 +1388,7 @@ footer{
     position: absolute;
 }
 
-.SNS-icon p2 img{
+.SNS-icon p2 {
     top: 72px;
     left: 662px;
     width: 42px;
@@ -1328,7 +1403,7 @@ footer{
 }
 
 
-.SNS-icon p3 img{
+.SNS-icon p3 {
     top: 72px;
     left: 728px;
     width: 42px;
@@ -1387,7 +1462,6 @@ html, body {
     padding: 0;
 }
 
-
 .header-top{
     top: -143px;
     left: 0px;
@@ -1397,10 +1471,15 @@ html, body {
     opacity: 1;
     background-size: cover;
 }
+
+
+
+
 .header-top h1{
     top:283px;
     left:138.54px;
     font: normal normal normal 24px/32px Roboto;
+
 }
 .header-top h2{
     top:314px;
@@ -1414,6 +1493,30 @@ html, body {
     
 }
 
+.header-right{
+    top: -100px;
+    left: 0px;
+    height:0px;
+    width: 1.54px;
+    background-color: transparent;
+	background:#001762 ;
+}
+.header-right::before{
+    content: "";
+    left: 364px;
+    top: 0;
+    width: 0px;
+    height: 768px;
+	z-index: -1;
+	background:#001762 ;
+    transform: scaleY(6.0) perspective(.6em) rotateX(1.7deg) scaleX(1.3);
+    transform-origin: bottom right;
+    position: absolute;
+	border-radius: 8px 8px 0 0;
+} 
+
+
+
 /*プロフィール部分*/
 
 
@@ -1423,13 +1526,11 @@ html, body {
     font: normal normal bold 40px/74px Roboto;
     left: 95px;
     right:107px;
-    position: absolute;
 }
 .about-me-under-bar{
     top:804.5px;
     left: 95.5px;
     width: 173px;
-    position: absolute;
 }
 
 .profile_image img{
@@ -1437,7 +1538,6 @@ html, body {
     left: 72px;
     width: 220px;
     height: 196px;
-    position: absolute;
 }
 
 .header-top button {
@@ -1459,7 +1559,6 @@ html, body {
     letter-spacing: 0px;
     color: #151515;
     opacity: 1;
-    position: absolute;
 }
 
 
@@ -1484,6 +1583,12 @@ html, body {
     font-size:13px;
 }
 /*サービス部分*/
+.service_section{
+    width:375px;
+    height:2258px;
+}
+
+
 
 
 .service-title p{
@@ -1605,11 +1710,11 @@ html, body {
 }
 
 
-
-
 /*スキル紹介部分*/
 
+.skill-work-section{
 
+}
 
 .skill_section_title h1{
     top: 4055px;
@@ -1620,7 +1725,7 @@ html, body {
     letter-spacing: 0px;
     color: #151515;
     opacity: 1;
-    position: relative;
+    position: absolute;
 }
 
 .Skill-under-bar{
@@ -1818,7 +1923,6 @@ html, body {
 
 
 /*フッター部分*/
-
 
 .footer-contact-form{
     top: 6150px;
