@@ -5,7 +5,7 @@ html, body {
     color: white;
     font-family: 'PT Serif', serif;
     margin:0;
-    max-width: 1366px;
+    width: 1366px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -13,10 +13,9 @@ html, body {
 }
 
 #wrap{
-    overflow:hidden;    
-    table-layout: fixed;
+
     margin:0;
-    width: 100%;
+    width: 1366px;
     overflow: hidden;
 }
 
@@ -27,7 +26,7 @@ html, body {
     top: -143px;
     left: 0px;
     height: 768px;
-    width: 1366px;
+    width: 100%;
     margin:0;
     background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
     opacity: 1;
@@ -1350,7 +1349,7 @@ html, body {
     content: "";
     left: 0px;
     left: 0px;
-    width: 1366px;
+    width: 100%;
     opacity: 0.6;
     height: 502px;
     background: #001762 0% 0% no-repeat padding-box;
